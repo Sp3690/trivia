@@ -1,0 +1,782 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins', sans-serif;
+}
+.header{
+    background-color:#252b2d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+}
+.header_logo .logo{
+    width: 259px;
+    height: 50px;
+    margin-left: 60px;
+}
+.header_right{
+    display: flex;
+    margin-right: 60px;
+    align-items: center;
+    padding: 40px;
+}
+.header_right ul{
+    display: flex;
+    align-items: center;
+}
+.header_right ul li{
+    list-style: none;
+    margin: 0 15px;
+    display: flex;
+}
+/* hero */
+.main{
+    background-image: url(../images/2\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main .spring{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.main .sale{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.button {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    border: 2px solid white;
+    background: #ff66ff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.free{
+    margin-top: 15px;
+}
+.button-secondary {
+    background: #7f8fa6;
+    margin-top: 15px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px; 
+}
+/* Brand logo */
+
+.brand_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: white;
+}
+.br_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    background-color: white;
+}
+.br_logo img{
+    width: 254px;
+    height: 254px;
+    margin: 20px;
+}
+/* Learn Section */
+.learn{
+    background-color: #7f2cbf;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.left-section {
+    width: 50%;
+}
+.using {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+.btn {
+    color: white;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+.btn-blue { background: #6ec1e4; }
+.btn-pink { background: #e375f4; }
+.btn-green { background: #61ce70; }
+.btn-gold { background: #dba867; }
+
+.people{
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+}
+.start {
+    margin-top: 20px;
+    text-align: center;
+}
+.start button {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.right-section {
+    width: 50%;
+}
+.right-section video {
+    width: 100%;
+    height: 360px;
+    border-radius: 10px;
+    border: none;
+}
+/* Game Style */
+.game{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #007277 0%, #73ccd0 100%);
+    color: white;
+}
+
+.to{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 25px;
+}
+.choice{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+.game_style{
+    height: 401px;
+    width: 1140px;
+    margin-left: 110px;
+}
+.game_txt{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    line-height: 1;
+}
+.now_h{
+    font-size: 30px;
+    font-weight: 400;
+}
+.mode_h{
+    font-size: 46px;
+    font-weight: 400;
+}
+.get_h{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.video-container {
+    margin-top: 50px; 
+    display: flex;
+    justify-content: center;
+
+}
+iframe {
+    width: 80%;
+    max-width: 800px;
+    height: 450px;
+    border: none;;
+}
+.learn_more .more{
+    background-color: transparent;
+    margin-top: 15px;
+    padding: 15px 30px;
+    text-decoration: none;
+    border: 2px solid white;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px; 
+}
+.learn_more{
+    text-align: center;
+    padding-bottom: 20px;
+}
+/* one of these game  */
+.one{
+    background-color:#fafafa;
+    color: black;
+    padding: 30px;
+}
+.out{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.game_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.game_img img{
+    width: 270px;
+    height: 236px;
+}
+.game_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.custom-button {
+    background-color: #6ec1e4; 
+    color: white; 
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.custom-button:hover {
+    background-color: #4fa3c5; 
+}
+ 
+/* entire school */
+.entire{
+    background-color: #248d9d;
+    color: white;
+    padding: 30px;
+}
+.ent{
+    text-align: center;
+    font-size: 41px;
+    font-weight: 500;
+}
+.ent_sc{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 23px;
+}
+.ent_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.ent-btn i{
+    margin: 10px;
+}
+.ent-btn {
+    background-color: transparent; 
+    color: white; 
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* classroom */
+.clas{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #278d90 0%, #236f8e 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.cls_left{
+    width: 50%;
+}       
+.remote_img{
+    width: 522px;
+    height: 350px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 110px;
+    margin-bottom: 35px;
+}
+.cls_right{
+    width: 50%;
+}
+.cls_h{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.cls_text ul {
+    margin-top: 20px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.cls_text ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+/* Companies */
+.companies{
+    background-color: transparent;
+    background-image: linear-gradient(0deg, #007277 0%, #73ccd0 100%);
+    color: white;
+}
+.great_h{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+.com_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.com_img img{
+    width: 178px;
+    height: 55px;
+    margin: 20px;
+}
+.com-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.com_btn{
+    background-color: #6ec1e4; 
+    color: white; 
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 24px; 
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none; 
+}
+
+/* youtube */
+.teach{
+    background-color: white;
+    color: #515151;
+}
+.emp_h{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+.video_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 55PX;
+}
+.video_container video{
+    width: 713px;
+    height: 400px;
+}
+/*  Virtual or In-Person */
+.virtual{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #7de2cf 0%, #6ea9d3 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.virtual_img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.step_img{
+    width: 510px;
+    height: 698px;
+}
+.person_text{
+    width: 50%;
+
+}
+.person_t{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+}
+/*  Your Phone, Tablet, or Computer. */
+.phone{
+    background-color: white;
+    color: #515151;
+}
+.phone_txt{
+    margin-top: 30px;
+}
+.phone_t{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+}
+.phone_img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.device {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+}
+.iphone{
+    width: 240px;
+    height: 391px;
+}
+.laptop{
+    width: 540px;
+    height: 411px;
+}
+.galaxy{
+    width: 240px;
+    height: 378px;
+}
+.button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+}
+.ios { background-color: #666; }
+.web { background-color: #5DADE2; }
+.android { background-color: #27AE60; }
+/* gradient color */
+.color{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #007277 0%, #72ccd0 100%);
+    padding: 90px 0 0;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+/* Host it Like a Pro */
+.host{
+    background-color: #73ccd0;
+    color: white;
+}
+.host_txt h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+}
+.host_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.host_img img{
+    width: 1140px;
+    height: 347px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+/* No Stage is Too Big */
+.no_s{
+    padding-top:60px ;
+}
+.no_h{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+.no_video{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.big_h{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 500;
+}
+.big_btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.big_btn a{
+    background-color: #6ec1e4; 
+    color: white; 
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+
+}
+/* Full Customization  */
+
+.full{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #273741 0%, #72ccd0 100%);
+    opacity: 1;
+    color: white;
+    text-align: center;
+}
+.full_c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 100%;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.left, .right {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.center {
+    width: 30%;
+}
+.center img {
+    width: 100%;
+    max-width: 250px;
+}
+.feature {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+}
+
+/*  Pretty sweet right */
+
+.testimonial-section {
+    padding: 50px;
+    background-color: #3A3A3A;
+    color: white;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.testimonial {
+    background: transparent;
+    padding: 20px;
+    flex: 1;
+    text-align: left;
+    font-size: 16px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.cta {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.cta button {
+    background-color: #47B5FF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cta button:hover {
+    background-color: #3697E0;
+}
+
+
+/*  our profits to help others. */
+.profit{
+    background-color: white;
+    color:  #515151;
+    text-align: center;
+    padding-top: 70px;
+
+}
+.profit_txt{
+    display: flex;
+    flex-direction: column;
+}
+.profit_txt h2{
+    font-size: 36px;
+    font-weight: 400;
+}
+.pro_p p{
+    margin-top: 20px;
+}
+.video_cont{
+    margin-top: 20px;
+}
+
+/* footer */
+
+footer {
+    background-color: #222;
+    color: #ddd;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1350px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.footer-section {
+    text-align: left;
+    width: 45%;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 26px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #555; 
+}
+
+.social-icons i {
+    font-size: 32px;
+    margin-right: 10px;
+    color: #4f5356;
+    transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+    color: #fff;
+}
+
+.footer-section p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-section p i {
+    margin-right: 5px;
+    font-size: 20px;
+    color: #d2d2d2;
+    font-weight: 100;
+    
+}
+/* footer bottom */
+.footer_bottom{
+    background-color: #23272a;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 16px;
+}
