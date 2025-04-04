@@ -181,6 +181,11 @@ body{
     border: none;
 }
 /* Game Style */
+.container_game{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .game{
     background-color: transparent;
     background-image: linear-gradient(180deg, #007277 0%, #73ccd0 100%);
