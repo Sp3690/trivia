@@ -13,6 +13,7 @@ body{
 .container_{
     max-width: 1350px;
     display: flex;
+    justify-content: space-between;
 }
 .header_logo{
     display: flex;
