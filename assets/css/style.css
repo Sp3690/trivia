@@ -67,6 +67,7 @@ body{
 .button_new {
     display: inline-block;
     margin: 15px;
+    font-size: 18px;
     padding: 20px 40px;
     border: 2px solid white;
     background: #e375f4;
