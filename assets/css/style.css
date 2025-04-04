@@ -9,6 +9,8 @@ body{
 .header{
     background-color:#252b2d;
     color: white;
+}
+.container_{
     display: flex;
     justify-content: space-between;
 }
@@ -49,6 +51,10 @@ body{
     justify-content: center;
     text-align: center;
 }
+.container-3{
+    max-width: 1350px;
+}
+
 .main .spring{
     font-size: 50px;
     font-weight: 500;
@@ -64,7 +70,7 @@ body{
     font-weight: 400;
     margin-bottom: 20px;
 }
-.button_new{
+.button_new {
     display: inline-block;
     margin: 15px;
     font-size: 18px;
@@ -120,6 +126,8 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 50px;
+    margin: 0 auto;
+    text-align: center;
 }
 .left-section {
     width: 50%;
@@ -137,19 +145,23 @@ body{
     margin: 20px 0;
 }
 .btn {
-    color: white;
     width: 250px;
     padding: 15px;
     text-align: center;
-    cursor: pointer;
-    border-radius: 10px;
+    font-size: 18px;
     font-weight: bold;
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    position: relative;
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
 }
-.btn-blue { background: #6ec1e4; }
-.btn-pink { background: #e375f4; }
-.btn-green { background: #61ce70; }
-.btn-gold { background: #dba867; }
+
+.btn-blue { background: #6ec1e4; box-shadow: 5px 5px 0 #5aaed1;}
+.btn-pink { background: #e375f4; box-shadow: 5px 5px 0 #b46dc4;}
+.btn-green { background: #61ce70;box-shadow: 5px 5px 0 #4e9f58;  }
+.btn-gold { background: #dba867;box-shadow: 5px 5px 0 #b58549; }
 
 .people{
     color: white;
@@ -183,13 +195,13 @@ body{
 /* Game Style */
 .container_game{
     max-width: 1350px;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 0 15px;
 }
 .game{
-    background-color: transparent;
+   background-color: transparent;
     background-image: linear-gradient(180deg, #007277 0%, #73ccd0 100%);
-    color: white;
+    color: white; 
 }
 
 .to{
@@ -215,6 +227,7 @@ body{
     flex-direction: column;
     gap: 25px;
     line-height: 1;
+   
 }
 .now_h{
     font-size: 30px;
@@ -347,6 +360,10 @@ iframe {
     justify-content: center;
     align-items: center;
     color: white;
+}
+.container_1{
+    max-width: 1350px;
+    display: flex;
 }
 .cls_left{
     width: 50%;
