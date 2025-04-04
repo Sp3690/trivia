@@ -183,7 +183,7 @@ body{
 /* Game Style */
 .container_game{
     max-width: 1350px;
-    margin: 0 auto;
+    margin:0 auto;
     padding: 0 15px;
 }
 .game{
